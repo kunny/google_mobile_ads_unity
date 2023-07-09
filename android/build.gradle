@@ -22,6 +22,7 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
+    namespace 'com.androidhuman.plugins.google_mobile_ads_unity'
     compileSdkVersion 31
 
     compileOptions {
@@ -34,7 +35,7 @@ android {
     }
 
     dependencies {
-        implementation 'com.unity3d.ads:unity-ads:4.2.1'
-        implementation 'com.google.ads.mediation:unity:4.2.1.1'
+        implementation 'com.unity3d.ads:unity-ads:4.7.1'
+        implementation 'com.google.ads.mediation:unity:4.7.1.1'
     }
 }
