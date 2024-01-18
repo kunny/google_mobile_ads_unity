@@ -1,6 +1,6 @@
 name: google_mobile_ads_unity
 description: Google Mobile Ads mediation plugin for Unity Ads.
-version: 3.7.1
+version: 3.8.0
 
 environment:
   sdk: ">=2.17.6 <4.0.0"
